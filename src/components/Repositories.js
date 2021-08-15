@@ -1,7 +1,14 @@
 import Filters from './Filters';
+import RepoCard from './RepoCard';
 import './Repositories.css';
 
 function Repositories() {
+  const repos = [...Array(8)].map((_, i) => 
+    <li className="repos-list__item" key={i}>
+      <RepoCard></RepoCard>
+    </li>
+  );
+
   return (
     <div className="repos">
       <div className="repos__filters">
@@ -10,10 +17,8 @@ function Repositories() {
         </div>
       </div>
       <div className="repos__result">
-        <div className="repos__total">Записей найдено: 0</div>
-        <ul className="repos-list">
-          
-        </ul>
+        <div className="repos__total">Записей найдено: {repos.length}</div>
+        <ul className="repos-list">{repos}</ul>
       </div>
     </div>
   );
