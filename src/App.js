@@ -4,7 +4,7 @@ import Repositories from './components/Repositories';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header></Header>
       <Repositories></Repositories>
     </div>

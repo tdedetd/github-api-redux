@@ -1,6 +1,12 @@
+import './Header.css';
+
 function Header() {
   return (
-    <div>Header</div>
+    <header className="header">
+      <h1 className="title">
+        <a href="/" className="title__a">Github api redux</a>
+      </h1>
+    </header>
   );
 }
 
