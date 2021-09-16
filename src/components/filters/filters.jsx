@@ -1,4 +1,4 @@
-import './Filters.css';
+import './filters.css';
 
 function Filters() {
   const orderName = 'order' + String(new Date().getTime());

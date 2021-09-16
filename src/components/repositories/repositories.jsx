@@ -1,6 +1,6 @@
-import Filters from './Filters';
-import RepoCard from './RepoCard';
-import './Repositories.css';
+import Filters from '../filters';
+import RepoCard from '../repo-card';
+import './repositories.css';
 
 function Repositories() {
   const repos = [...Array(8)].map((_, i) => 

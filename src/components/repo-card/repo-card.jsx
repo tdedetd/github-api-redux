@@ -1,4 +1,4 @@
-import './RepoCard.css';
+import './repo-card.css';
 
 function RepoCard() {
   const noDescriptionText = '<No description>';

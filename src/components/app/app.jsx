@@ -1,6 +1,6 @@
-import './App.css';
-import Header from './components/Header';
-import Repositories from './components/Repositories';
+import './app.css';
+import Header from '../header';
+import Repositories from '../repositories';
 
 function App() {
   return (
